@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-dots {
+  --bg-spacing: theme(spacing[10]);
+
+  background-size: var(--bg-spacing) var(--bg-spacing);
+  background-image: radial-gradient(
+    theme(colors[gray[500]] / 33%) theme(spacing[px]),
+    theme(colors[transparent]) 0
+  );
+}

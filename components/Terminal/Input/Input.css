@@ -1,0 +1,5 @@
+.caret:before {
+  @apply absolute left-full h-fit bg-gray-950 text-gray-100 dark:bg-gray-100 dark:text-gray-950;
+
+  content: attr(aria-label);
+}
