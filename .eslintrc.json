@@ -7,17 +7,24 @@
     "plugin:react/jsx-runtime",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:storybook/recommended",
     "prettier"
   ],
-  "plugins": ["simple-import-sort", "@typescript-eslint"],
+  "plugins": [
+    "simple-import-sort",
+    "@typescript-eslint"
+  ],
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
+    "react/require-default-props": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".tsx"]
+        "extensions": [
+          ".tsx"
+        ]
       }
     ],
     "import/prefer-default-export": "off",
