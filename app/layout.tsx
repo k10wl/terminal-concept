@@ -5,6 +5,8 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 
+import { Providers } from "@/components";
+
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,11 +18,11 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.className} bg-dots bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
