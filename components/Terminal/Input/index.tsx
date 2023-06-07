@@ -2,9 +2,11 @@
 
 import "./Input.css";
 
+import keycode from "keycode";
 import {
   ChangeEvent,
   FormEvent,
+  KeyboardEvent,
   SyntheticEvent,
   useCallback,
   useEffect,
@@ -13,10 +15,16 @@ import {
   useState,
 } from "react";
 
+import {
+  COMMANDS,
+  matchingCommand,
+  unknownCommand,
+} from "@/components/Terminal/commands";
 import { TERMINAL_NAME } from "@/config";
 
 export function Input() {
-  const [value, setValue] = useState("");
+  const [prompt, setPrompt] = useState("");
+  const [suggestion, setSuggestion] = useState("");
   const [caretPosition, setCaretPosition] = useState(0);
 
   const inputRef = useRef<HTMLInputElement>(null);
@@ -24,22 +32,53 @@ export function Input() {
   const inputId = useId();
 
   const handleChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
-    setValue(e.target.value);
+    const command = e.target.value;
+    setPrompt(command);
+    setSuggestion(matchingCommand(command));
   }, []);
 
+  const handleHotkeys = useCallback(
+    (e: KeyboardEvent) => {
+      const strategy: Record<KeyboardEvent["code"], () => void> = {
+        [keycode.codes.tab]: () => {
+          if (!suggestion) {
+            return;
+          }
+
+          e.preventDefault();
+          e.stopPropagation();
+          setPrompt(suggestion);
+          setSuggestion("");
+        },
+        [keycode.codes.backspace]: () => {
+          setCaretPosition((prevState) => prevState - 1);
+        },
+      };
+
+      strategy[keycode(e.key)]?.();
+    },
+    [suggestion],
+  );
+
   const handleCaretUpdate = useCallback(
-    (e: SyntheticEvent<HTMLInputElement>, offset = 0) => {
-      if (e.nativeEvent.target)
+    (e: SyntheticEvent<HTMLInputElement>) => {
+      if (e.nativeEvent.target) {
+        const offset = e.type === "beforeinput" ? 1 : 0;
+
         setCaretPosition((e.currentTarget.selectionStart ?? 0) + offset);
+      }
     },
     [],
   );
 
-  const handleSubmit = useCallback((e: FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = useCallback(
+    (e: FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
 
-    console.log("SUBMIT");
-  }, []);
+      (COMMANDS[prompt] ?? unknownCommand)();
+    },
+    [prompt],
+  );
 
   useEffect(() => {
     const focusOnInput = () => {
@@ -64,20 +103,28 @@ export function Input() {
         <div className="relative flex-1">
           <div
             aria-hidden
-            aria-label={value[caretPosition] ?? " "}
+            aria-label={prompt[caretPosition] ?? " "}
             className="caret pointer-events-none absolute h-0 select-none whitespace-pre text-transparent"
           >
-            {value.substring(0, caretPosition)}
+            {prompt.substring(0, caretPosition)}
           </div>
 
+          {suggestion && (
+            <div className="absolute select-none whitespace-pre text-white opacity-50 mix-blend-exclusion">
+              <span className="invisible">{prompt}</span>
+              {suggestion.substring(prompt.length)}
+            </div>
+          )}
+
           <input
-            className="peer w-full bg-transparent caret-transparent outline-none"
             id={inputId}
             ref={inputRef}
-            value={value}
+            value={prompt}
             onChange={handleChange}
+            onKeyDown={handleHotkeys}
             onSelect={handleCaretUpdate}
-            onBeforeInput={(e) => handleCaretUpdate(e, 1)}
+            onBeforeInput={handleCaretUpdate}
+            className="w-full bg-transparent caret-transparent outline-none"
           />
         </div>
       </label>

@@ -20,6 +20,7 @@
     "autoprefixer": "10.4.14",
     "classnames": "^2.3.2",
     "framer-motion": "^10.12.16",
+    "keycode": "^2.2.1",
     "lodash": "^4.17.21",
     "next": "13.4.4",
     "next-themes": "^0.2.1",
