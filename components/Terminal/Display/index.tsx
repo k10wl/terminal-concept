@@ -37,9 +37,9 @@ export function Display() {
   };
 
   return (
-    <div className="relative -mx-5 flex flex-1 flex-col overflow-hidden">
+    <div className="relative flex flex-1 flex-col overflow-hidden">
       <article
-        className="relative flex flex-1 flex-col-reverse overflow-auto px-5"
+        className="relative flex flex-1 flex-col-reverse overflow-auto"
         onScroll={handleScroll}
         ref={logsRef}
       >
@@ -57,7 +57,7 @@ export function Display() {
               variants={revealAnimation.variants}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="absolute bottom-2 right-5 grid aspect-square origin-center place-items-center rounded-full border border-gray-950 p-2 dark:border-gray-50"
+              className="absolute bottom-2 right-5 grid h-9 w-9 origin-center place-items-center rounded-full border border-gray-950 p-2 dark:border-gray-50"
               onClick={handleScrollDownClick}
             >
               <FontAwesomeIcon icon={faAngleDown} />

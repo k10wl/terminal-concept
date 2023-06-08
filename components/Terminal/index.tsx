@@ -11,7 +11,7 @@ export function Terminal() {
     <div
       className={classNames(
         robotoMono.className,
-        "flex h-full flex-col justify-between gap-2 border border-opacity-50 p-5 pb-2 pt-0",
+        "flex h-full flex-col justify-between gap-2",
       )}
     >
       <Display />

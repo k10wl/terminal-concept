@@ -98,8 +98,12 @@ export function Input() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label className="flex" htmlFor={inputId}>
-        <p className="whitespace-pre">{TERMINAL_NAME} </p>
+      <label className="flex gap-5" htmlFor={inputId}>
+        <p className="relative select-none whitespace-pre bg-white pl-1 mix-blend-difference before:absolute before:right-0 before:top-1/2 before:aspect-square before:h-[70%] before:-translate-y-1/2 before:translate-x-1/2 before:rotate-45 before:bg-white">
+          <span className="text-white mix-blend-difference">
+            {TERMINAL_NAME}
+          </span>
+        </p>
         <div className="relative flex-1">
           <div
             aria-hidden
@@ -110,7 +114,7 @@ export function Input() {
           </div>
 
           {suggestion && (
-            <div className="absolute select-none whitespace-pre text-white opacity-50 mix-blend-exclusion">
+            <div className="absolute select-none whitespace-pre text-white opacity-50 mix-blend-difference">
               <span className="invisible">{prompt}</span>
               {suggestion.substring(prompt.length)}
             </div>

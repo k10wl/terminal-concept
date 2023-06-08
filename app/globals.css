@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-dots {
-  --bg-spacing: theme(spacing[10]);
+  --bg-spacing: theme(spacing[6]);
 
   background-size: var(--bg-spacing) var(--bg-spacing);
   background-image: radial-gradient(

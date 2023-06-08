@@ -1,4 +1,4 @@
-import { throttle } from "lodash";
+import throttle from "lodash/throttle";
 import { useMemo } from "react";
 
 export const useThrottle = (...args: Parameters<typeof throttle>) =>
