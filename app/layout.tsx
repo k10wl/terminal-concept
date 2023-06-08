@@ -2,14 +2,12 @@ import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 
 import { Providers } from "@/components";
+import { inter } from "@/lib/fonts";
 
 config.autoAddCss = false;
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Terminal",

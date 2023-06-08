@@ -1,10 +1,9 @@
 import classNames from "classnames";
-import { Roboto_Mono as RobotoMono } from "next/font/google";
+
+import { robotoMono } from "@/lib/fonts";
 
 import { Display } from "./Display";
 import { Input } from "./Input";
-
-const robotoMono = RobotoMono({ subsets: ["latin"] });
 
 export function Terminal() {
   return (

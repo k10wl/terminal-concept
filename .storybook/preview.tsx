@@ -1,10 +1,8 @@
 import type { Preview } from "@storybook/react";
 
 import "@/app/globals.css";
-import {
-  withThemeByClassName,
-  withThemeByDataAttribute,
-} from "@storybook/addon-styling";
+import { withThemeByClassName } from "@storybook/addon-styling";
+import { inter } from "../lib/fonts";
 
 const preview: Preview = {
   parameters: {
@@ -24,8 +22,15 @@ export const decorators = [
       light: "light",
       dark: "dark",
     },
-    defaultTheme: "light",
+    defaultTheme: "dark",
   }),
+  (Story) => (
+    <div
+      className={`${inter.className} bg-dots fixed inset-0 bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50`}
+    >
+      <Story />
+    </div>
+  ),
 ];
 
 export default preview;
