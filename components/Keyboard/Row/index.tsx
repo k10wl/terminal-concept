@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { activeKeyCodes, KEYBOARD_LAYOUT } from "../contants";
+import { activeKeyCodes, KEYBOARD_LAYOUT } from "../constants";
 import { Key } from "./Key";
 
 interface Props {

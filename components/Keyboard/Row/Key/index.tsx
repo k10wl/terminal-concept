@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import { classNames } from "@/lib/utils";
 
 interface Props {
   name: string;

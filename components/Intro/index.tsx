@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 import { robotoMono } from "@/lib/fonts";
-import { createDelay } from "@/utils";
+import { createDelay } from "@/lib/utils";
 
 const STEP_DURATION = 100;
 
@@ -16,6 +16,8 @@ export function Intro({ onContinue }: Props) {
   const logoRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
+    const abortController = new AbortController();
+
     const enterAnimation = async () => {
       if (!logoRef.current || !containerRef.current) {
         return;
@@ -25,29 +27,29 @@ export function Intro({ onContinue }: Props) {
       const initialLogoClassName = logoRef.current.className;
 
       // Show initial empty screen
-      await createDelay(STEP_DURATION * 5);
+      await createDelay(STEP_DURATION * 5, abortController.signal);
 
       // Show underline and dotted background
       containerRef.current.className = `${initialScopeClassname} bg-dots`;
       logoRef.current.className = `${initialLogoClassName} before:absolute before:left-1/2 before:top-full before:h-1 before:w-[120%] before:-translate-x-1/2 before:translate-y-10 before:bg-gray-950 before:dark:bg-gray-50`;
-      await createDelay(STEP_DURATION * 0.5);
+      await createDelay(STEP_DURATION * 0.5, abortController.signal);
 
       // Display intro text
       logoRef.current.className = `${initialLogoClassName} border-b-4 border-gray-950 dark:border-gray-50 !text-inherit`;
-      await createDelay(STEP_DURATION * 2);
+      await createDelay(STEP_DURATION * 2, abortController.signal);
 
       // Hide bg-dots
       containerRef.current.className = initialScopeClassname;
-      await createDelay(STEP_DURATION * 2);
+      await createDelay(STEP_DURATION * 2, abortController.signal);
 
       // Show bg-dots and filled rectangle
       containerRef.current.className = `${containerRef.current.className} before:absolute before:left-1/2 before:top-1/2 before:bg-gray-950 before:dark:bg-gray-50 before:w-1/2 before:h-1/2 before:opacity-[0.02] before:-translate-x-[70%] before:-translate-y-[70%]`;
       logoRef.current.className = `${initialLogoClassName} bg-gray-950 dark:bg-gray-50`;
-      await createDelay(STEP_DURATION * 2);
+      await createDelay(STEP_DURATION * 2, abortController.signal);
 
       // Show bg-dots
       containerRef.current.className = `${initialScopeClassname} bg-dots`;
-      await createDelay(STEP_DURATION * 1.5);
+      await createDelay(STEP_DURATION * 1.5, abortController.signal);
 
       // Show text with border behind and show "continue" text
       logoRef.current.className = `${initialLogoClassName} border-4 border-gray-950 dark:border-gray-50 !text-inherit`;
@@ -56,14 +58,23 @@ export function Intro({ onContinue }: Props) {
       }
     };
 
-    enterAnimation();
+    enterAnimation().catch((e) => {
+      if (e instanceof Error && e.message !== createDelay.abortMessage) {
+        console.log(e);
+      }
+    });
 
-    window.addEventListener("keydown", onContinue, { once: true });
-    window.addEventListener("click", onContinue, { once: true });
+    const handleOnContinue = () => {
+      abortController.abort(createDelay.abortMessage);
+      onContinue();
+    };
+
+    window.addEventListener("keydown", handleOnContinue, { once: true });
+    window.addEventListener("click", handleOnContinue, { once: true });
 
     return () => {
-      window.removeEventListener("keydown", onContinue);
-      window.removeEventListener("click", onContinue);
+      window.removeEventListener("keydown", handleOnContinue);
+      window.removeEventListener("click", handleOnContinue);
     };
   }, [onContinue]);
 

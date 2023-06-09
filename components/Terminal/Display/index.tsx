@@ -2,11 +2,11 @@
 
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import classNames from "classnames";
 import { AnimatePresence, motion, MotionProps } from "framer-motion";
 import React, { useRef, useState } from "react";
 
 import { useThrottle } from "@/hooks";
+import { classNames } from "@/lib/utils";
 
 const revealAnimation: MotionProps = {
   variants: {

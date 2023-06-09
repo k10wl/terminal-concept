@@ -5,9 +5,9 @@ import { useEffect, useRef } from "react";
 
 import { Row } from "@/components/Keyboard/Row";
 import { useTriggerRerender } from "@/hooks";
-import { isMac } from "@/utils";
+import { isMac } from "@/lib/utils";
 
-import { activeKeyCodes, KEYBOARD_LAYOUT } from "./contants";
+import { activeKeyCodes, KEYBOARD_LAYOUT } from "./constants";
 
 export function Keyboard() {
   const ref = useRef<HTMLDivElement>(null);
@@ -59,9 +59,10 @@ export function Keyboard() {
   }, []);
 
   return (
-    <div className="@container">
-      <div className="relative m-auto">
+    <div data-testid="keyboard-container" className="@container">
+      <div data-testid="keyboard-parent" className="relative m-auto">
         <motion.div
+          data-testid="keyboard-ref"
           initial={{ clipPath: "circle(0% at 50% 50%)" }}
           animate={{ clipPath: "circle(100% at 50% 50%)" }}
           transition={{ duration: 1, delay: 0.2 }}

@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Keyboard should render Keyboard component 1`] = `
+<div
+  class="@container"
+  data-testid="keyboard-container"
+>
+  <div
+    class="relative m-auto"
+    data-testid="keyboard-parent"
+    style="width: 0px; height: 0px;"
+  >
+    <div
+      class="absolute left-1/2 top-1/2 mx-auto w-[710px] -translate-x-1/2 -translate-y-1/2 scale-[0.4] select-none @xs:scale-[0.45] @sm:scale-50 @md:scale-[0.6] @lg:scale-[0.7] @xl:scale-[0.8] @2xl:scale-[0.9] @3xl:scale-100"
+      data-testid="keyboard-ref"
+      style="clip-path: circle(0% at 50% 50%);"
+    >
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            \`
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            1
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            2
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            3
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            4
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            5
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            6
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            7
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            8
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            9
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            0
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            -
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            =
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Delete
+          </span>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Tab
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            q
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            w
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            e
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            r
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            t
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            y
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            u
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            i
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            o
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            p
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            [
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            ]
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            \\
+          </span>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Caps Lock
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            a
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            s
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            d
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            f
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            g
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            h
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            j
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            k
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            l
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            ;
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            '
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50 border border-gray-950/25 dark:border-gray-50/25"
+          >
+            Return
+          </span>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Shift
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            z
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            x
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            c
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            v
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            b
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            n
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            m
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            ,
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            .
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            /
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Shift
+          </span>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Ctrl
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Alt
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Meta
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50 border border-gray-950/25 dark:border-gray-50/25"
+          >
+             
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Meta
+          </span>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <span
+            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          >
+            Alt
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
