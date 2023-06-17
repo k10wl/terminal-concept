@@ -1,31 +1,31 @@
 "use client";
 
-import { PropsWithChildren, useCallback, useState } from "react";
+import { PropsWithChildren, ReactNode, useCallback, useState } from "react";
 
-import { Intro } from "@/components/Intro";
+interface Props extends PropsWithChildren {
+  animationSequence: ((props: { onContinue: () => void }) => ReactNode)[];
+}
 
-const ANIMATION_SEQUENCE = [Intro] as const;
-
-export function IntroAnimation({ children }: PropsWithChildren) {
+export function IntroAnimation({ children, animationSequence }: Props) {
   const [finished, setFinished] = useState(false);
   const [currentStep, setCurrentStep] = useState(0);
 
   const proceedToNextStep = useCallback(() => {
     setCurrentStep((prevState) => {
-      if (prevState + 1 === ANIMATION_SEQUENCE.length) {
+      if (prevState + 1 === animationSequence.length) {
         setFinished(true);
         return prevState;
       }
 
       return prevState + 1;
     });
-  }, []);
+  }, [animationSequence.length]);
 
   if (finished) {
     return children;
   }
 
-  const AnimationComponent = ANIMATION_SEQUENCE[currentStep];
+  const AnimationComponent = animationSequence[currentStep];
 
   return <AnimationComponent onContinue={proceedToNextStep} />;
 }

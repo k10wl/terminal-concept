@@ -7,17 +7,36 @@ jest.mock("@/lib/utils", () => ({
 }));
 
 describe("Intro", () => {
-  it("should call onContinue on keydown event", async () => {
+  beforeEach(() => {
+    jest.useFakeTimers();
+  });
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+
+  it("should call onContinue once and remove listeners on keydown event", () => {
     const onContinue = jest.fn();
     render(<Intro onContinue={onContinue} />);
 
-    // Simulate keydown event
     fireEvent(window, new KeyboardEvent("keydown"));
 
-    // Verify that the onContinue callback is called
     expect(onContinue).toHaveBeenCalledTimes(1);
 
+    fireEvent(window, new KeyboardEvent("keydown"));
     fireEvent(window, new MouseEvent("click"));
-    expect(onContinue).toHaveBeenCalledTimes(2);
+    expect(onContinue).toHaveBeenCalledTimes(1);
+  });
+
+  it("should call onContinue once and remove listeners on click event", () => {
+    const onContinue = jest.fn();
+    render(<Intro onContinue={onContinue} />);
+
+    fireEvent(window, new MouseEvent("click"));
+
+    expect(onContinue).toHaveBeenCalledTimes(1);
+
+    fireEvent(window, new KeyboardEvent("keydown"));
+    fireEvent(window, new MouseEvent("click"));
+    expect(onContinue).toHaveBeenCalledTimes(1);
   });
 });
