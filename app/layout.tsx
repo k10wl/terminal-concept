@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { ReactNode } from "react";
 
-import { Providers } from "@/components";
+import { ContextProviders } from "@/context";
 import { inter } from "@/lib/fonts";
 
 config.autoAddCss = false;
@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body
         className={`${inter.className} bg-dots bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50`}
       >
-        <Providers>{children}</Providers>
+        <ContextProviders>{children}</ContextProviders>
       </body>
     </html>
   );
