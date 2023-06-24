@@ -23,4 +23,16 @@ describe("classNames", () => {
 
     expect(result).toBe("");
   });
+
+  it("should rewrite previous conflicting tailwind rules", () => {
+    expect(
+      classNames(
+        "p-1",
+        ["p-25", ["p-0"]],
+        { "p-5": true },
+        true && "p-4",
+        "p-2",
+      ),
+    ).toBe("p-2");
+  });
 });
