@@ -5,9 +5,11 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import { ReactNode } from "react";
 
 import { ContextProviders } from "@/context";
+import * as folders from "@/lib/folders";
 import { inter } from "@/lib/fonts";
 
 config.autoAddCss = false;
+folders.init("public/__folders");
 
 export const metadata = {
   title: "Terminal",

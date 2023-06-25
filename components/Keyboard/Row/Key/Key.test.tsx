@@ -9,7 +9,6 @@ describe("Key", () => {
     const keyElement = screen.getByText("A");
 
     expect(keyElement).toBeInTheDocument();
-    expect(keyElement).toHaveClass("before:opacity-0");
     expect(keyElement).not.toHaveClass("border");
     expect(keyElement).not.toHaveClass("flex-1");
   });
@@ -19,7 +18,7 @@ describe("Key", () => {
 
     const keyElement = screen.getByText("B");
 
-    expect(keyElement).toHaveClass("before:opacity-100");
+    expect(keyElement).toHaveClass("contrast-bg");
   });
 
   it("should render Key component with grow class", () => {

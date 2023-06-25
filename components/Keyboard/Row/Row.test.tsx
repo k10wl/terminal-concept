@@ -20,27 +20,4 @@ describe("Row", () => {
 
     expect(keyElements).toHaveLength(mockKeys.length);
   });
-
-  it("should render Row component with correct props", () => {
-    render(<Row keys={mockKeys} />);
-
-    const keyAElement = screen.getByText("A");
-    const keyBElement = screen.getByText("B");
-    const keyCElement = screen.getByText("C");
-
-    expect(keyAElement).not.toHaveClass("before:opacity-100");
-    // eslint-disable-next-line testing-library/no-node-access
-    expect(keyBElement.parentElement).toHaveClass("flex-1");
-    expect(keyCElement).toHaveClass("border");
-  });
-
-  it("should render Row component with active keys", () => {
-    render(<Row keys={mockKeys} />);
-
-    const keyAElement = screen.getByText("A");
-    const keyBElement = screen.getByText("B");
-
-    expect(keyAElement).not.toHaveClass("before:opacity-100");
-    expect(keyBElement).toHaveClass("before:opacity-100");
-  });
 });

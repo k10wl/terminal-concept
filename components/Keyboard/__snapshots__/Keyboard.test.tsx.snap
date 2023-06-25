@@ -21,128 +21,142 @@ exports[`Keyboard should render Keyboard component 1`] = `
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             \`
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             1
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             2
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             3
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             4
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             5
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             6
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             7
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             8
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             9
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             0
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             -
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             =
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Delete
-          </span>
+          </button>
         </li>
       </ul>
       <ul
@@ -151,128 +165,142 @@ exports[`Keyboard should render Keyboard component 1`] = `
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Tab
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             q
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             w
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             e
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             r
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             t
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             y
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             u
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             i
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             o
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             p
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             [
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             ]
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             \\
-          </span>
+          </button>
         </li>
       </ul>
       <ul
@@ -281,119 +309,132 @@ exports[`Keyboard should render Keyboard component 1`] = `
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Caps Lock
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             a
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             s
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             d
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             f
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             g
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             h
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             j
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             k
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             l
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             ;
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             '
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50 border border-gray-950/25 dark:border-gray-50/25"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10 border border-gray-950/25 dark:border-gray-50/25"
+            type="button"
           >
             Return
-          </span>
+          </button>
         </li>
       </ul>
       <ul
@@ -402,110 +443,122 @@ exports[`Keyboard should render Keyboard component 1`] = `
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Shift
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             z
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             x
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             c
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             v
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             b
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             n
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             m
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             ,
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             .
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             /
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Shift
-          </span>
+          </button>
         </li>
       </ul>
       <ul
@@ -514,56 +567,62 @@ exports[`Keyboard should render Keyboard component 1`] = `
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Ctrl
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Alt
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Meta
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50 border border-gray-950/25 dark:border-gray-50/25"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10 border border-gray-950/25 dark:border-gray-50/25"
+            type="button"
           >
              
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Meta
-          </span>
+          </button>
         </li>
         <li
           class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
         >
-          <span
-            class="relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50"
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
           >
             Alt
-          </span>
+          </button>
         </li>
       </ul>
     </div>

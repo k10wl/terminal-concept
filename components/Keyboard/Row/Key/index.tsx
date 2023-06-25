@@ -15,15 +15,16 @@ export function Key({ name, pressed, grow, border }: Props) {
         grow && "flex-1",
       )}
     >
-      <span
+      <button
+        type="button"
         className={classNames(
-          "relative inline-block aspect-square h-10 w-full truncate rounded align-middle text-xs uppercase leading-10 before:absolute before:inset-0 before:rounded before:bg-gray-950 before:opacity-0 before:transition-opacity hover:before:opacity-10 active:before:opacity-100 dark:before:bg-gray-50",
+          "interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10",
           border && "border border-gray-950/25 dark:border-gray-50/25",
-          pressed && "before:opacity-100",
+          pressed && "contrast-bg",
         )}
       >
         {name}
-      </span>
+      </button>
     </li>
   );
 }
