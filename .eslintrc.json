@@ -12,10 +12,14 @@
   ],
   "plugins": [
     "simple-import-sort",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "testing-library"
   ],
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "error",
+    "react/prop-types": "off",
     "react/require-default-props": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
@@ -38,5 +42,15 @@
       }
     ]
   },
+  "overrides": [
+    // Only uses Testing Library lint rules in test files
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ],
   "root": true
 }

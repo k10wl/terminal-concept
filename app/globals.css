@@ -11,3 +11,22 @@
     theme(colors[transparent]) 0
   );
 }
+
+@layer utilities {
+  .contrast-bg {
+    @apply bg-gray-950 dark:bg-gray-50;
+  }
+  .contrast-bg\/05 {
+    @apply bg-gray-950/05 dark:bg-gray-50/05;
+  }
+  .contrast-bg\/10 {
+    @apply bg-gray-950/10 dark:bg-gray-50/10;
+  }
+  .contrast-bg\/30 {
+    @apply bg-gray-950/30 dark:bg-gray-50/30;
+  }
+}
+
+.interactive {
+  @apply active:contrast-bg/30 hover:contrast-bg/10 cursor-pointer transition-colors;
+}

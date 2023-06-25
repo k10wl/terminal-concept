@@ -1,0 +1,631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Keyboard should render Keyboard component 1`] = `
+<div
+  class="@container"
+  data-testid="keyboard-container"
+>
+  <div
+    class="relative m-auto"
+    data-testid="keyboard-parent"
+    style="width: 0px; height: 0px;"
+  >
+    <div
+      class="absolute left-1/2 top-1/2 mx-auto w-[710px] -translate-x-1/2 -translate-y-1/2 scale-[0.4] select-none @xs:scale-[0.45] @sm:scale-50 @md:scale-[0.6] @lg:scale-[0.7] @xl:scale-[0.8] @2xl:scale-[0.9] @3xl:scale-100"
+      data-testid="keyboard-ref"
+      style="clip-path: circle(0% at 50% 50%);"
+    >
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            \`
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            1
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            2
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            3
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            4
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            5
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            6
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            7
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            8
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            9
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            0
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            -
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            =
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Delete
+          </button>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Tab
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            q
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            w
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            e
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            r
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            t
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            y
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            u
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            i
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            o
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            p
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            [
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            ]
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            \\
+          </button>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Caps Lock
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            a
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            s
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            d
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            f
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            g
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            h
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            j
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            k
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            l
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            ;
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            '
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10 border border-gray-950/25 dark:border-gray-50/25"
+            type="button"
+          >
+            Return
+          </button>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Shift
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            z
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            x
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            c
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            v
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            b
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            n
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            m
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            ,
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            .
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            /
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Shift
+          </button>
+        </li>
+      </ul>
+      <ul
+        class="mx-auto flex justify-center overflow-hidden"
+      >
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Ctrl
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Alt
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Meta
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2 flex-1"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10 border border-gray-950/25 dark:border-gray-50/25"
+            type="button"
+          >
+             
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Meta
+          </button>
+        </li>
+        <li
+          class="m-1 inline-block shrink-0 rounded text-center first:text-left last:text-end [&>span]:first:pl-2 [&>span]:last:pr-2"
+        >
+          <button
+            class="interactive active:contrast-bg relative inline-block aspect-square h-10 w-full truncate rounded-md align-middle text-xs uppercase leading-10"
+            type="button"
+          >
+            Alt
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

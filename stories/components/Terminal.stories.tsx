@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Terminal } from "@/components/Terminal";
+import { Keyboard } from "@/components/Keyboard";
 
-const meta: Meta<typeof Terminal> = {
-  component: Terminal,
+const meta: Meta<typeof Keyboard> = {
+  component: Keyboard,
   argTypes: {
     label: {
       options: ["Normal", "Bold", "Italic"],

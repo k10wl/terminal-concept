@@ -1,5 +1,7 @@
 /** @type {import("tailwindcss").Config} */
-module.exports = {
+import generated from "@tailwindcss/container-queries";
+
+export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +10,7 @@ module.exports = {
   darkMode: ["class"],
   theme: {
     extend: {
+      fontSize: { "2xs": "0.625rem" },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,5 +18,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [generated],
 };
