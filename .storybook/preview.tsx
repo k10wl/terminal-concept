@@ -26,7 +26,7 @@ export const decorators = [
   }),
   (Story) => (
     <div
-      className={`${inter.className} bg-dots fixed inset-0 bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50`}
+      className={`${inter.className} bg-dots fixed inset-0 bg-gray-50 p-5 text-gray-950 dark:bg-gray-950 dark:text-gray-50`}
     >
       <Story />
     </div>

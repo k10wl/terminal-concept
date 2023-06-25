@@ -26,6 +26,7 @@ function FolderLink({
   return (
     <Link
       href={href}
+      prefetch
       className="interactive flex items-center gap-2 rounded px-2"
     >
       {type in iconStrategy
@@ -39,7 +40,7 @@ function FolderLink({
 function NotFound() {
   return (
     <div>
-      <FolderLink href="?path=/" name="root" type="parent" />
+      <FolderLink href={{ query: { path: "/" } }} name="root" type="parent" />
     </div>
   );
 }
@@ -69,7 +70,7 @@ export async function Folders({ searchParams = {} }: PropsWithParams) {
         {folder.name !== folder.parent && (
           <li>
             <FolderLink
-              href={`?path=${folder.parent}`}
+              href={{ query: { path: folder.parent } }}
               name=".."
               type="parent"
             />
@@ -82,7 +83,7 @@ export async function Folders({ searchParams = {} }: PropsWithParams) {
           return (
             <li key={childPath}>
               <FolderLink
-                href={`?path=${childPath}`}
+                href={{ query: { path: childPath } }}
                 name={childName}
                 type={type}
               />

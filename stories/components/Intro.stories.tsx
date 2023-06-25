@@ -4,6 +4,11 @@ import { Intro } from "@/components/Intro";
 
 const meta: Meta<typeof Intro> = {
   component: Intro,
+  argTypes: {
+    onContinue: {
+      type: "function",
+    },
+  },
 };
 
 export default meta;

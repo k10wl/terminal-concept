@@ -128,8 +128,8 @@ export function Intro({ onContinue }: Props) {
           onPointerLeave={handleGlitchSecondaryText}
           className="text-center"
         >
-          <h1 className="relative box-content border-2 text-6xl sm:text-8xl">
-            <span className="px-3 py-1">k10wl</span>
+          <h1 className="relative box-content border-2">
+            <span className="px-3 py-1 text-6xl sm:text-8xl">k10wl</span>
             <div
               aria-label="mask"
               className="invisible absolute inset-0 bg-gray-950 dark:bg-gray-50"
